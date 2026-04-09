@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\24704\Desktop\毕设\guandan_mcc-main\guandan_mcc-main\showdown\clients\showdown_actor.py", line 511, in run_one_player
+    board.draw_table()
+  File "C:\Users\24704\Desktop\毕设\guandan_mcc-main\guandan_mcc-main\showdown\clients\showdown_actor.py", line 155, in draw_table
+    card_img = pygame.image.load(self.cards_image_path + card + '.jpg').convert_alpha()
+FileNotFoundError: No such file or directory: 'C:\Users\24704\Desktop\毕设\guandan_mcc-main\guandan_mcc-main\showdown\images\cards\PASS.jpg'.
